@@ -1,1 +1,8 @@
 Test cases:
+
+1. Adding parameters to the request url should return 200 with empty or location params values added in request url.
+2. User should be able to get valid response and objects that are used on UI.
+3. The content type return by the api response header should be application/json.
+4. API should work without auth.
+5. Search query added to request url should return response and should have text provided in request.
+
