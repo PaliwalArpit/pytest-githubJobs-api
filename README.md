@@ -54,3 +54,10 @@ assert response.status_code == 200
 pytest Tests/githubApiTests.py 
 
 ```
+## Run test with report
+
+```
+pytest --alluredir=allure_results/ Tests/githubApiTests.py 
+allure serve allure_results/
+
+```
